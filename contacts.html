@@ -1,0 +1,132 @@
+<!-- 
+███╗░░░███╗░█████╗░██████╗░░██████╗░░█████╗░███╗░░██╗██╗░██████╗░█████╗░░█████╗░░█████╗░██╗░░░░░███████╗██████╗░
+████╗░████║██╔══██╗██╔══██╗██╔════╝░██╔══██╗████╗░██║██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██║░░░░░██╔════╝██╔══██╗
+██╔████╔██║██║░░██║██████╔╝██║░░██╗░███████║██╔██╗██║██║╚█████╗░██║░░╚═╝██║░░██║██║░░██║██║░░░░░█████╗░░██████╔╝
+██║╚██╔╝██║██║░░██║██╔══██╗██║░░╚██╗██╔══██║██║╚████║██║░╚═══██╗██║░░██╗██║░░██║██║░░██║██║░░░░░██╔══╝░░██╔══██╗
+██║░╚═╝░██║╚█████╔╝██║░░██║╚██████╔╝██║░░██║██║░╚███║██║██████╔╝╚█████╔╝╚█████╔╝╚█████╔╝███████╗███████╗██║░░██║
+╚═╝░░░░░╚═╝░╚════╝░╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝╚═════╝░░╚════╝░░╚════╝░░╚════╝░╚══════╝╚══════╝╚═╝░░╚═╝ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morganiscooler: Contact me!</title>
+    <link rel="icon" href="Icon/frame.png" type="image/png"></link>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<div class="stars"></div>
+<body>
+    <body src="static skyscraper.png">
+
+        <video id="background-video" autoplay loop muted>
+            <source src="output.webm" type="video/webm">
+        </video>
+    
+        <div id="retroDisplays">
+			<img src="Assets/RetroPalm.gif" class="retroPalm">
+		</div>
+    <center>
+        <div class="Contact-me" id="Icon">
+            <img class="Contact-me-gif" src="Assets/blank.gif">
+            <!-- Go to CSS -->
+        </div>
+        
+        
+        <div class = "NavContainer">
+            <ul class="nav-links">
+                 <li class="link"><a href="#" target="_blank">Latest video!</a></li>
+                 <li class="link"><a href="commissions.html" target="_blank">Pricings</a></li>
+                 <li class="link"><a href="#" target="_blank">Merchandise</a></li>
+            </ul>
+        </div>
+    </center>
+
+		<center>
+			<div style="width:1360px;">
+				<div id = "RectanglePiller"></div>
+				<div id = "Sidebar">
+					<div id = AboutBtn class="buttons" onclick="window.location.href='about.html'"><span>About</span></div>
+					<div id = GalleryBtn class="buttons" onclick="window.location.href='gallery.html'"><span>Gallery</span></div>
+					<div id = CommissionsBtn class="buttons" onclick="window.location.href='commissions.html'"><span>Commissions</span></div>
+					<div id = YoutubeBtn class="buttons" onclick="window.location.href='#'"><span>Youtube</span></div>
+					<div id = TiktokBtn class="buttons" onclick="window.location.href='#'"><span>Tiktok</span></div>
+					<div id = ContactsBtn class="buttons" onclick="window.location.href='contacts.html'"><span>Contacts</span></div>       
+				</div>
+				<div id="OutterRectangle" >
+					<h2 id="ContactHere">
+						Contact me:
+					</h2>
+
+					<div class="outterBox">
+                        <p id="Disclaimer">⚠️IMPORTANT⚠️</p>
+                        <p id="disclaimerText">This contact page is only for inquiries related to the contents regarding this page, or questions about commission pricings. 
+                        All unrelated emails will be ignored.
+                        </p>   
+                        <p id="disclaimerText">My business email is (insert new email here).</p>
+                    </div>
+
+					<div class="WarningLines"></div>
+
+					<form target="_blank" action="https://formsubmit.co/morgancuiuwu@gmail.com" method="POST">
+						<!-- replace $ with ThankYou.html page once made -->
+						<input type="hidden" name="_next" value="$"></input>
+						<div class="form-group">
+							<div class="form-row">
+								<div class="col">
+									<input type="text" name="name" class="form-control set-width" placeholder="Name*" required maxlength="30">
+								</div>
+								<div class="col">
+									<input type="email" name="email" class="form-control set-width" placeholder="Email Address*" required maxlength="50">
+								</div>
+							</div>
+							<div class="col" id="subjectBox">
+								<input type="text" name="subject" class="form-control longer-width" placeholder="Subject" maxlength="75">
+							</div>
+						</div>
+						<div class="form-group">
+							<textarea placeholder="Your message goes here!" class="form-control longer-width" name="message" rows="13" cols="60" required></textarea>
+						</div>
+						<!-- change the button to something else, I hate the button -->
+						<button type="submit" class="submitBtn">Submit</button>
+					</form>
+            <!-- <div class="formGroup">
+                <div class="col"></div>
+                <form action="https://formsubmit.co/morgancuiuwu@email.com" method="POST">
+                    replace first value with page that displays "Thanks for your submission! Please wait 1-2 business days for 
+                    full response" -->
+                    <!-- <input type="hidden" name="_next" value="$"> 
+                    <input type="hidden" name="_captcha" value="false">
+    
+                    <textarea class="inputBox" type="email" name="email" placeholder="Email Address*" required></textarea>
+                    <textarea class="inputBox" type="name" name="name" placeholder="Name*" required></textarea>
+                    <textarea class="inputBox" type="subject" name="subject" placeholder="Subject" ></textarea>
+                    <textarea class="inputBox" type="message" name="message" placeholder="Your message goes here" required></textarea>
+                    <button type="submit">Send</button>
+                </form> -->
+                </div>       
+			</div>
+		</center>
+
+        <form>
+            <p id="CreatorCopyright"> Morganiscooler </p>    
+            <p id="Copyright">© 2024 Morganiscooler ❖ Background made by visualdon</p>    
+            <p id="Copyright">MUSIC DOES NOT BELONG TO ME!</p>
+        </form>
+
+    <!-- scripts HERE -->
+    <!-- Cursor -->
+    <script type="module">
+        import { rainbowCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+      
+        new rainbowCursor({
+            length: 12,
+            size: 4,
+        });
+    </script>
+    <!-- Cursor -->
+    <script src="highlight.js"></script>highlight for PAGE
+    <script src="highlight2.js"></script><!--highlight for CSS DESIGNS-->
+    <script type="text/javascript" src="icon.js"></script>
+    <!-- <script type="text/javascript" src="index.js"></script>Run js last to ensure there are no errors   -->
+</body>
+</html>
