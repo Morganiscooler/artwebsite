@@ -355,12 +355,18 @@ form{
 /*Need to reposition the rectangle, make the corners round, lower the opacity!*/
 
 /* Art gallery HERE */
+#artwork-4{
+	height: 300px;
+	width: 330px;
+
+
+}
 #artwork-5
 {
 	height: 340px;
 
 }
-#artwork-4{
+#artwork-1{
 
 	width: 330px;
 
