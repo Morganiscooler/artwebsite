@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Morganiscooler: Thank you!</title>
+    <link rel="icon" href="Icon/frame.png" type="image/png"></link>
+    <link rel="stylesheet" href="thankyou.css"></link>
 </head>
-<body>
+<body onclick="partyEffect()">
+    <center>
+        <div id="Confetti_gif"></div>
+        <header id="ThankYou">Thank you!</header>
+        <p id="Msg">A response will be sent to your inbox in 3-5 business days maximum.</p>
+        <p id="Msg">(Please check your spam inbox if there are no replies by then)</p>
+        <button id="Backbtn" onclick="window.location.href='https://morganiscooler.netlify.app'">Back to website</button>
+
+    </center>
+    <img id="Cosmo_gif" src="assets/cosmochar.gif"></img>
+    <img id="Aurora_gif" src="assets/aurora.gif"></img>
+    
     
 </body>
+<script src="highlight.js"></script><!--highlight for PAGE-->
+<script src="highlight2.js"></script><!--highlight for CSS DESIGNS-->
+<!-- Hide/show character popups -->
+ <script src="characters.js"></script>
+ <audio id="partyEffect" src="music/Party-Horn-Sound-Effect.mp3" type="audio/mp3"></audio>
 </html>

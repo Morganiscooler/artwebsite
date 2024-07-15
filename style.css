@@ -6,6 +6,8 @@ src: url('Honk-Regular.ttf'); }
 src: url('RubikBubbles-Regular.ttf');}
 @font-face { font-family: PixelifySans;
 src: url('PixelifySans-Bold.ttf');}
+@font-face { font-family: Urbanist;
+	src: url('Urbanist/Urbanist-VariableFont_wght.ttf');}
 
 @-webkit-keyframes cursor {
   0% {cursor: url(Cursor/frame_1.png), auto;}
@@ -35,6 +37,7 @@ body{
 	-webkit-animation: cursor 400ms infinite;
 	animation: cursor 400ms infinite;
 }
+
 
 /* .trail {
     font-size: 13px;
