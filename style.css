@@ -516,6 +516,8 @@ form{
 
 /**********************************************commissions**********************************************/
 /*Need to reposition the rectangle, make the corners round, lower the opacity!*/
+
+
 .Commissions-gif
 {
 	background-image: url('Assets/Commissions.gif');
@@ -525,13 +527,16 @@ form{
 	height: 200px;
 }
 #Pricing{   
-	color: #ffabc0;
-	opacity: 1;
-	-webkit-text-stroke-width: 0.8px;
-	-webkit-text-stroke-color: #000000;
-	font-family: RubikBubbles;
-	white-space: pre-line;
-	font-size: 1.3em;
+	background: -webkit-linear-gradient(#ff3586, #268bff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	font-family: Sixtyfour;
+	margin-bottom: -30px;
+	font-size: 1.6em;
+	word-spacing: -10px;
+	-webkit-text-stroke-color: #ff008c;
+	-webkit-text-stroke-width: 0.025px;
 }
 #AboutPrices{
 	background: -webkit-linear-gradient(#ffda8a, #d41d1d);
