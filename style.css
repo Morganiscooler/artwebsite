@@ -29,6 +29,7 @@ src: url('PixelifySans-Bold.ttf');}
 
 /* RGB color */
 :root {
+	--otherColor: hsl(201, 100%, 50%);
     --color: hsl(0, 100%, 43%);
 }
     
@@ -243,7 +244,7 @@ a{
 
 
 #yt_pfp{
-	border: 5px solid #000;
+	border: 5px dotted var(--otherColor);
 	margin-right: 60%;
 }
 #social_btns{
