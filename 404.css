@@ -11,7 +11,7 @@
 }
 body{
     overflow-y: hidden;
-    overflow-x: hidden;
+    overflow-x: visible;
 }
 .error{
     font-family: Code;
