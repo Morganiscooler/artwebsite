@@ -9,9 +9,10 @@
     height: 80%;
     margin-top: -10px;
 }
+
 body{
     overflow-y: hidden;
-    overflow-x: hidden;
+    overflow-x: visible;
 }
 .error{
     font-family: Code;
