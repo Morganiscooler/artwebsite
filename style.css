@@ -708,6 +708,32 @@ input[type=text], input[type=email], textarea, select {
 	height: 20px;
 }
 /**********************************************Art-gallery**********************************************/
+.enlarged{
+	border: 				3px ridge #fff;
+	margin: 				auto;
+	max-height: 			75%;
+	max-width: 				75%;
+	position: 				absolute;
+	top: 					0;
+	left: 					0;
+	right: 					0;
+	bottom: 				0;
+}
+
+.lightbox:target{
+	display: block;
+}
+.lightbox{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 2000;
+}
+
 .Art-Gallery-Gif
 {
 	background-image: url('Assets/Art-gallery-logo.gif');
