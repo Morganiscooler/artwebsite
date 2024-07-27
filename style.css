@@ -430,13 +430,19 @@ form{
 	display:				block;
 } */
 /* Art gallery HERE */
+#artwork-12{
+	height: 50%;
+}
+#artwork-9{
+	width: 35%;
+}
 #closeBtn2{
 	position: fixed;
 	visibility: hidden;
 }
 
 #artwork-7{
-	width: 330px;
+	width: 45%;
 }
 #artwork-4{
 	height: 300px;
