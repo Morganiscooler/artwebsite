@@ -402,8 +402,28 @@ form{
 
 /**********************************************gallery**********************************************/
 /*Need to reposition the rectangle, make the corners round, lower the opacity!*/
+.CloseBtn:active{
+	#closeBtn1{
+		visibility: hidden;
+	}
+	background-image: url("assets/closeClick.png");
+	z-index: 3000;
+	position: fixed;
 
+}
+/* .CloseBtn>img, .CloseBtn:active>img:first-child{
+	display:				none;
+}
+
+.CloseBtn>img:first-child, .CloseBtn:active>img:last-child{
+	display:				block;
+} */
 /* Art gallery HERE */
+#closeBtn2{
+	position: fixed;
+	visibility: hidden;
+}
+
 #artwork-7{
 	width: 330px;
 }
@@ -711,13 +731,16 @@ input[type=text], input[type=email], textarea, select {
 .enlarged{
 	border: 				3px ridge #fff;
 	margin: 				auto;
-	max-height: 			75%;
-	max-width: 				75%;
+	max-height: 			85%;
+	max-width: 				85%;
 	position: 				absolute;
 	top: 					0;
 	left: 					0;
 	right: 					0;
 	bottom: 				0;
+}
+.arrow{
+	position: absolute;
 }
 
 .lightbox:target{
