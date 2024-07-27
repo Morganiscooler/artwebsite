@@ -411,6 +411,17 @@ form{
 	position: fixed;
 
 }
+.CloseBtn{
+    position:				absolute;
+	z-index: 100;
+    right:					0;
+    top:					0;
+}
+
+.CloseBtn img{
+	height:					auto;
+	margin:					0px;
+}
 /* .CloseBtn>img, .CloseBtn:active>img:first-child{
 	display:				none;
 }
@@ -741,6 +752,7 @@ input[type=text], input[type=email], textarea, select {
 }
 .arrow{
 	position: absolute;
+	width: 4%;
 }
 
 .lightbox:target{
