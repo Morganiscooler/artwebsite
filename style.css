@@ -241,8 +241,9 @@ a{
 }
 
 /* about */
-
-
+u{
+	text-decoration: none;
+}
 .win98popup {
 	top: 5%;
 	right: 5%;
