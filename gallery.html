@@ -95,7 +95,7 @@
 							</a>
 							<div class="middle">
 								<center>
-									<img src="artwork/idk.jpg" class="enlarged">
+									<img data-srcset="artwork/idk.jpg" class="lazy enlarged" src="assets/loadingicon.gif">
 									<a href="#9">
 										<img src="assets/arrowRight.png" class="arrow" style="right: 0; top: 40%;">
 									</a>
@@ -116,7 +116,7 @@
 									<a href="#12">
 										<img src="assets/arrowLeft.png" class="arrow" style="left: 0; top: 40%;">
 									</a>
-									<img src="artwork/3D_borgir.png" class="enlarged">
+									<img data-srcset="artwork/3D_borgir.png" class="lazy enlarged" src="assets/loadingicon.gif">
 									<a href="#7">
 										<img src="assets/arrowRight.png" class="arrow" style="right: 0; top: 40%;">
 									</a>
@@ -137,7 +137,7 @@
 									<a href="#9">
 										<img src="assets/arrowLeft.png" class="arrow" style="left: 0; top: 40%;">
 									</a>
-									<img src="artwork/splatoon_fullHD.png" class="enlarged">
+									<img data-srcset="artwork/splatoon_fullHD.png" class="lazy enlarged" src="assets/loadingicon.gif">
 									<a href="#6">
 										<img src="assets/arrowRight.png" class="arrow" style="right: 0; top: 40%;">
 									</a>
@@ -158,7 +158,7 @@
 									<a href="#7">
 										<img src="assets/arrowLeft.png" class="arrow" style="left: 0; top: 40%;">
 									</a>
-									<img src="artwork/harmony.png" class="enlarged">
+									<img data-srcset="artwork/harmony.png" class="lazy enlarged" src="assets/loadingicon.gif">
 									<a href="#5">
 										<img src="assets/arrowRight.png" class="arrow" style="right: 0; top: 40%;">
 									</a>
@@ -179,9 +179,7 @@
 									<a href="#6">
 										<img src="assets/arrowLeft.png" class="arrow" style="left: 0; top: 40%;">
 									</a>
-									<iframe style="max-width: 80%; max-height: 80%;" src="https://www.youtube.com/watch?v=CizQFM5dIvM">
-										<!--  -->
-									</iframe>
+									<iframe width="70%" height="671" style="max-width: 70%; max-height: 70%;" src="https://www.youtube.com/embed/CizQFM5dIvM?si=X3-9q-lFSmUTQbI0" title="Click to see full HD version!" frameborder="1"  allowfullscreen></iframe>
 									<a href="#10">
 										<img src="assets/arrowRight.png" class="arrow" style="right: 0; top: 40%;">
 									</a>
@@ -190,7 +188,7 @@
 						</div>
 						<!------------------------------------------------------>
 						<a class="imglink" href="#10">
-							<img class="artwork" src="Artwork/Commission for Ben.png" alt="artwork-5" id="artwork-5" title="Click to see full HD version!">
+							<img class="artwork" src="Artwork/commission_for_ben.png" alt="artwork-5" id="artwork-5" title="Click to see full HD version!">
 						</a>
 						<div class="lightbox" id="10">
 							<a href="#" class="CloseBtn">
@@ -202,7 +200,7 @@
 									<a href="#5">
 										<img src="assets/arrowLeft.png" class="arrow" style="left: 0; top: 40%;">
 									</a>
-									<img src="artwork/commission for ben.png" class="enlarged">
+									<img data-srcset="Artwork/commission_for_ben.png" class="lazy enlarged" src="assets/loadingicon.gif">
 									<a href="#1">
 										<img src="assets/arrowRight.png" class="arrow" style="right: 0; top: 40%;">
 									</a>
@@ -223,7 +221,7 @@
 									<a href="#10">
 										<img src="assets/arrowLeft.png" class="arrow" style="left: 0; top: 40%;">
 									</a>
-									<img src="artwork/aurora!.png" class="enlarged">
+									<img data-srcset="Artwork/Aurora!.png" class="lazy enlarged" src="assets/loadingicon.gif">
 									<a href="#3">
 										<img src="assets/arrowRight.png" class="arrow" style="right: 0; top: 40%;">
 									</a>
@@ -244,7 +242,7 @@
 									<a href="#1">
 										<img src="assets/arrowLeft.png" class="arrow" style="left: 0; top: 40%;">
 									</a>
-									<img src="artwork/planetbackground.png" class="enlarged">
+									<img data-srcset="Artwork/PlanetBackground.png" class="lazy enlarged" src="assets/loadingicon.gif">
 									<a href="#4">
 										<img src="assets/arrowRight.png" class="arrow" style="right: 0; top: 40%;">
 									</a>
@@ -265,7 +263,7 @@
 									<a href="#3">
 										<img src="assets/arrowLeft.png" class="arrow" style="left: 0; top: 40%;">
 									</a>
-									<img src="artwork/sophiabeach.png" class="enlarged">
+									<img data-srcset="Artwork/SophiaBeach.png" class="lazy enlarged" src="assets/loadingicon.gif">
 									<a href="#11">
 										<img src="assets/arrowRight.png" class="arrow" style="right: 0; top: 40%;">
 									</a>
@@ -286,7 +284,7 @@
 									<a href="#4">
 										<img src="assets/arrowLeft.png" class="arrow" style="left: 0; top: 40%;">
 									</a>
-									<img src="artwork/aurorapfp.png" class="enlarged">
+									<img data-srcset="Artwork/AuroraPfp.png" class="lazy enlarged" src="assets/loadingicon.gif">
 								</center>
 							</div>
 						</div>
@@ -323,6 +321,7 @@
     <script type="text/javascript" src="DraggableDiv2.js"></script>
 	<!-- loading screen -->
     <script type="text/javascript" src="loading.js"></script>
+	<script type="text/javascript" src="lazy.js"></script>
     <!-- Potentially add: Autoplay; However need to change icon to auto display playing -->
     <audio id="audio"> 
         <embed id ="1" src="Music/MakeYourMove.mp3" loop="true" type="audio/mp3">
