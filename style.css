@@ -564,10 +564,10 @@ form{
     top:					0;
 }
 
-.CloseBtn img{
+ .CloseBtn img{
 	height:					auto;
 	margin:					0px;
-}
+} 
 /* .CloseBtn>img, .CloseBtn:active>img:first-child{
 	display:				none;
 }
@@ -635,87 +635,23 @@ form{
 
 /* Anything under 1024px, such as a smartphone device */
 /* fix the small screen display issue LATER */
-/* @media (max-width: 480px){
-
-	.NavContainer{
-		width: 1%;
-		font-size: 1%;
-		margin-left: 0%;
+ @media (max-width: 480px){
+	.CloseBtn{
+		#closeBtn1{
+			visibility: hidden;
+		}
+		background-image: url("assets/resized_CloseBtn.png");
+		width: 120px;
+		height: 116px;
+		z-index: 9000;
 	}
-	#RectanglePiller{
-		margin: 0;
-		padding: 0;
-		width:5%;
-		
+	.CloseBtn:active{
+		#closeBtn2{
+			visibility: hidden;
+		}
+		background-image: url("assets/closeClick_resized.png");
 	}
-	#Sidebar{
-		margin-left: 0%;
-	}
-
-
-	#Differentrectangle{
-		margin-left: 7%;
-		width: 20%;
-	}
-
-	#Introduction{
-		font-size: 20%;
-	}
-
-	#popup-window, #mp3-player{
-		width: 200px;
-		height: 200px;
-	}
-
-	#musicPlayer{
-		width:60px; height:60px;
-		margin-left: 10%;
-	}
-
-	#musicIcon{
-		/* fix this? */
-		/* width:60px; height:60px;
-	} */
-
-	/* .exit{
-		margin-left: 150px;
-		width: 50px;
-		height: 50px;
-		opacity: 0%;
-	}
-	.exit2{
-		margin-left: 150px;
-		width: 50px;
-		height: 50px;
-		opacity: 0%;
-	}
-
-	#Icon{
-		margin:auto;
-		padding: 0;
-		
-	}
-
-	.nav-links{
-		
-		font-size: 20px;
-		margin: 0;
-		padding: 0;
-
-	} 
-	html, body{
-		padding: 0;
-		margin: 0;
-	}
-	
-	
-	#background-video
-	{
-		height: 100%;
-		width: auto;
-
-	}
-} */
+} 
 
 @media (max-width: 800px){
 	#Icon, .NavContainer{
